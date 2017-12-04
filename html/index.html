@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' type='text/css' href='../assets/css/reset.css'>
+	<link rel='stylesheet' type='text/css' href='../assets/css/bootstrap.min.css'>
+	<link rel='stylesheet' type='text/css' href='../assets/css/style.css'>
+	<link rel='shortcut icon' type='image/png' href='../assets/img/favicon.png'>
+  <script src='https://code.jquery.com/jquery-2.2.3.js' integrity='sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=' crossorigin='anonymous'></script>
+	<title>AJAX</title>
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"> 
+</head>
+
+<body>
+
+<div class='wrapper'>
+
+<div class='container'>
+  <form class='form-inline' id='userInputForm'>
+    <div class='form-group'>
+    <input type='text' class='form-control' id='userInput' placeholder='Search'>
+    </div>        
+    <input type='submit' class='btn btn-danger' id='submitUserData' value='Submit'>
+  </form>
+</div>
+
+<div class='container'>
+  <div class='jumbotron'>
+    <div class='row buttonContainer'>
+      <!-- Appended buttons will be dumped into this div -->
+      <div id='buttonsDiv'>
+      </div> <!-- col -->
+    </div> <!-- row -->
+  </div> <!-- jumbo -->
+</div> <!-- container -->
+
+<div class='container'>
+  <h1>Click on the button of your favorite disney character to see GIFS of them below. <br> Search for more characters in the search form on the right.</h1>
+</div>
+
+<!-- AJAX results append in this div -->
+
+<div class='GIFdiv text-center'></div>
+
+</div> <!-- wrapper --> 
+<script src='../assets/js/apps.js'></script>
+</body>
+</html>

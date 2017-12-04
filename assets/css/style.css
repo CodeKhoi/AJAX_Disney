@@ -1,0 +1,55 @@
+.wrapper {
+  	background: url("../img/disney.jpg"); 
+  	border-bottom: 10px solid red;
+}
+
+.charButtons {
+	margin: 10px;
+	width: 175px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.charButtons:hover {
+	box-shadow:  15px 15px 15px rgba(0, 0, 0, 1);
+	cursor: pointer;
+}
+
+.jumbotron {
+	margin-top: 25px;
+	padding-left: 100px !important;
+	background-color: #fff;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	margin-bottom: 0;
+
+}
+
+.charIMG {
+	width: 300px;
+	height: 200px;
+	border: 3px solid #fff;
+}
+
+.title {
+	font-weight: bold;
+	margin-top: 5px;
+	color: #fff;
+	background: #111;
+}
+
+.form-inline {
+	margin-top: 400px;
+	float: right; 
+}
+
+h1 {
+	color: red;
+	font-family: 'Kaushan Script', cursive;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	font-size: 30px;
+
+}
+
